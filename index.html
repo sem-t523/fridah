@@ -1,0 +1,15 @@
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return render_template('index.html')
+
+if _seema_name_tompo_ == '__main__':
+    app.run(debug=True)
+django-admin startproject youth_website
+cd youth_website
+python manage.py startapp main
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
